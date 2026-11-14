@@ -1,0 +1,61 @@
+name: Daily predictions
+
+on:
+  schedule:
+    - cron: "33 1 * * *"   # 01:33 UTC = 9:33am Malaysia time, every day
+  workflow_dispatch:        # "Run workflow" button for manual runs
+
+permissions:
+  contents: write   # commit the day's prediction files back to the repo
+  pages: write
+  id-token: write
+
+concurrency:
+  group: daily
+  cancel-in-progress: false
+
+jobs:
+  predict:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install
+        run: pip install -r requirements.txt
+
+      - name: Download data from football-data.co.uk
+        run: python fetch_data.py
+
+      - name: Predict + build page
+        run: |
+          python -W ignore predict.py
+          python -W ignore build_page.py
+
+      - name: Save prediction history to the repo
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add predictions/
+          git diff --cached --quiet || git commit -m "Predictions $(date -u +%Y-%m-%d)"
+          git push
+
+      - name: Prepare site
+        run: |
+          mkdir -p site
+          cp predictions/index.html site/index.html
+          cp -r web/* site/
+
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+      - id: deploy
+        uses: actions/deploy-pages@v4
