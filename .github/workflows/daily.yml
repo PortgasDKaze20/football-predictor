@@ -2,7 +2,10 @@ name: Daily predictions
 
 on:
   schedule:
-    - cron: "33 1 * * *"   # 01:33 UTC = 9:33am Malaysia time, every day
+    # Every 3 hours (Malaysia time 9:33am, 12:33pm, 3:33pm, 6:33pm, 9:33pm, 12:33am, 3:33am, 6:33am).
+    # football-data.co.uk publishes weekend fixtures on Friday afternoon UK time
+    # and midweek fixtures ~Tuesday, so frequent checks pick them up within 3 hours.
+    - cron: "33 */3 * * *"
   workflow_dispatch:        # "Run workflow" button for manual runs
 
 permissions:
@@ -43,7 +46,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add predictions/
+          git add predictions/*.csv predictions/test 2>/dev/null || true
           git diff --cached --quiet || git commit -m "Predictions $(date -u +%Y-%m-%d)"
           git push
 

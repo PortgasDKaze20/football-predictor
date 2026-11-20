@@ -127,7 +127,7 @@ TEMPLATE = r"""<!DOCTYPE html>
     <div class="meta" style="margin-top:8px">Tested on 3,483 matches from 2024-25 and 2025-26 that the model never saw. Model: Elo ratings + last-5 form + bookmaker odds, top 5 European leagues.</div>
   </div>
 
-  <footer>Statistical predictions, not betting advice. The model is about as accurate as bookmakers, not better. Updated daily at 9:33am MYT.</footer>
+  <footer>Statistical predictions, not betting advice. The model is about as accurate as bookmakers, not better. Checks for new fixtures every 3 hours.</footer>
 </main>
 <script>
 const DATA = __DATA__;

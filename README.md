@@ -15,7 +15,7 @@ logistic regression trained on every match since 2016-17.
 
 ## How it runs
 
-GitHub Actions (`.github/workflows/daily.yml`) runs every day at 9:33am Malaysia time:
+GitHub Actions (`.github/workflows/daily.yml`) runs every 3 hours:
 `fetch_data.py` → `predict.py` → `build_page.py` → GitHub Pages. Prediction files are committed
 to `predictions/` so the page can show a track record.
 
