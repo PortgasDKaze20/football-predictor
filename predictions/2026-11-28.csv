@@ -1,0 +1,44 @@
+kickoff_myt,league,HomeTeam,AwayTeam,p_home,p_draw,p_away,pick,confidence,home_elo,away_elo,odds_H,odds_D,odds_A
+Sat 28 Nov 21:00,la-liga,Betis,Vallecano,0.602,0.244,0.155,H,0.602,1530.111,1428.762,1.58,4.26,5.02
+Sat 28 Nov 22:00,serie-a,Frosinone,Parma,0.703,0.177,0.12,H,0.703,1372.171,1357.889,1.47,4.97,5.51
+Sat 28 Nov 22:30,bundesliga,FC Koln,Elversberg,0.51,0.272,0.218,H,0.51,1380.372,1385.893,1.98,3.72,3.4
+Sat 28 Nov 22:30,bundesliga,Hamburg,Bayern Munich,0.094,0.134,0.771,A,0.771,1390.575,1705.835,9.28,6.46,1.25
+Sat 28 Nov 22:30,bundesliga,Mainz,Union Berlin,0.675,0.209,0.117,H,0.675,1436.725,1386.168,1.49,4.52,5.7
+Sat 28 Nov 22:30,bundesliga,Paderborn,Schalke 04,0.331,0.3,0.369,A,0.369,1371.561,1358.748,2.51,3.4,2.67
+Sat 28 Nov 23:00,premier-league,Leeds,Coventry,0.696,0.192,0.112,H,0.696,1422.816,1327.31,1.46,4.44,6.36
+Sat 28 Nov 23:00,premier-league,Man United,Brentford,0.466,0.291,0.243,H,0.466,1451.941,1473.988,2.09,3.7,3.17
+Sat 28 Nov 23:15,la-liga,Malaga,Ath Bilbao,0.186,0.238,0.576,A,0.576,1327.695,1448.537,4.59,3.76,1.72
+Sun 29 Nov 00:15,ligue-1,Angers,Lens,0.181,0.217,0.603,A,0.603,1355.347,1534.188,4.57,3.97,1.68
+Sun 29 Nov 01:00,serie-a,Torino,Lazio,0.263,0.301,0.435,A,0.435,1397.724,1543.113,3.38,3.37,2.13
+Sun 29 Nov 01:30,premier-league,Ipswich,Aston Villa,0.267,0.247,0.486,A,0.486,1323.635,1478.12,3.49,3.77,1.96
+Sun 29 Nov 01:30,la-liga,Elche,Ath Madrid,0.15,0.187,0.663,A,0.663,1389.179,1587.364,6.2,4.68,1.45
+Sun 29 Nov 01:30,bundesliga,Stuttgart,Ein Frankfurt,0.53,0.244,0.226,H,0.53,1536.673,1476.488,1.8,4.38,3.54
+Sun 29 Nov 03:45,serie-a,Inter,Genoa,0.743,0.169,0.088,H,0.743,1648.205,1404.984,1.3,5.49,9.06
+Sun 29 Nov 03:45,ligue-1,Le Havre,Strasbourg,0.285,0.279,0.436,A,0.436,1344.787,1471.117,3.08,3.5,2.18
+Sun 29 Nov 03:45,ligue-1,Le Mans,Lille,0.255,0.267,0.478,A,0.478,1365.048,1553.88,3.62,3.34,2.03
+Sun 29 Nov 03:45,ligue-1,Nice,Troyes,0.562,0.252,0.186,H,0.562,1461.347,1356.367,1.67,3.96,4.69
+Sun 29 Nov 03:45,ligue-1,Paris SG,Lorient,0.793,0.136,0.071,H,0.793,1669.871,1443.155,1.2,6.54,12.25
+Sun 29 Nov 04:00,la-liga,Real Madrid,Alaves,0.84,0.105,0.055,H,0.84,1659.669,1420.776,1.12,9.19,17.16
+Sun 29 Nov 19:30,serie-a,Udinese,Fiorentina,0.279,0.283,0.438,A,0.438,1369.28,1404.264,3.04,3.52,2.21
+Sun 29 Nov 20:00,premier-league,Everton,Liverpool,0.19,0.252,0.558,A,0.558,1429.552,1543.189,4.33,3.78,1.76
+Sun 29 Nov 21:00,la-liga,Valencia,Osasuna,0.428,0.323,0.248,H,0.428,1425.38,1396.683,2.13,3.22,3.49
+Sun 29 Nov 22:00,serie-a,Sassuolo,Napoli,0.169,0.23,0.601,A,0.601,1348.546,1539.33,4.58,4.18,1.65
+Sun 29 Nov 22:00,ligue-1,Auxerre,Marseille,0.255,0.243,0.502,A,0.502,1410.187,1530.15,3.53,3.74,1.93
+Sun 29 Nov 22:05,premier-league,Brighton,Newcastle,0.65,0.207,0.143,H,0.65,1505.814,1436.246,1.56,4.4,5.15
+Sun 29 Nov 22:05,premier-league,Crystal Palace,Hull,0.522,0.264,0.214,H,0.522,1369.33,1359.595,1.87,3.69,3.85
+Sun 29 Nov 22:05,premier-league,Fulham,Bournemouth,0.345,0.299,0.356,A,0.356,1424.805,1497.871,2.73,3.42,2.46
+Sun 29 Nov 22:05,premier-league,Sunderland,Tottenham,0.222,0.285,0.493,A,0.493,1360.399,1406.677,3.62,3.36,2.04
+Sun 29 Nov 22:30,bundesliga,Freiburg,RB Leipzig,0.336,0.275,0.389,A,0.389,1509.669,1566.364,2.66,3.76,2.34
+Sun 29 Nov 23:15,la-liga,La Coruna,Barcelona,0.098,0.119,0.783,A,0.783,1383.097,1706.268,9.8,7.12,1.21
+Mon 30 Nov 00:15,ligue-1,Toulouse,Rennes,0.362,0.272,0.366,A,0.366,1470.822,1508.719,2.51,3.53,2.58
+Mon 30 Nov 00:30,premier-league,Arsenal,Man City,0.466,0.264,0.271,H,0.466,1623.183,1586.013,1.97,3.65,3.55
+Mon 30 Nov 00:30,bundesliga,Hoffenheim,Augsburg,0.564,0.237,0.199,H,0.564,1471.72,1444.384,1.7,4.42,3.93
+Mon 30 Nov 01:00,serie-a,Roma,Monza,0.777,0.135,0.088,H,0.777,1606.492,1316.766,1.19,7.13,12.03
+Mon 30 Nov 01:30,la-liga,Celta,Villarreal,0.335,0.302,0.362,A,0.362,1439.791,1511.661,2.7,3.45,2.46
+Mon 30 Nov 02:30,bundesliga,Dortmund,Leverkusen,0.433,0.276,0.291,H,0.433,1622.874,1562.328,2.09,3.87,3.0
+Mon 30 Nov 03:45,serie-a,Como,Juventus,0.472,0.301,0.227,H,0.472,1549.991,1531.416,1.95,3.53,3.69
+Mon 30 Nov 03:45,ligue-1,Lyon,Monaco,0.36,0.314,0.327,H,0.36,1543.856,1520.421,2.35,3.31,2.93
+Mon 30 Nov 04:00,la-liga,Sociedad,Sevilla,0.436,0.28,0.285,H,0.436,1454.425,1417.998,2.12,3.49,3.2
+Tue 01 Dec 01:30,serie-a,Lecce,Atalanta,0.214,0.244,0.542,A,0.542,1339.328,1481.091,3.85,3.79,1.84
+Tue 01 Dec 03:45,serie-a,Cagliari,Milan,0.18,0.245,0.576,A,0.576,1379.578,1554.219,4.74,3.76,1.7
+Tue 01 Dec 04:00,la-liga,Espanol,Getafe,0.47,0.309,0.221,H,0.47,1405.575,1400.651,2.06,3.13,3.82
